@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.navigation{
+    height: 3.5rem;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.imageli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.navigation ul li{
+    margin: 10px;
+}
+.image{
+    height: 3rem;
+}
+.container{
+    height: 75vh;
+    width: 80vw;
+    margin: 10px auto;
+    background-image: url('covers/bg.jpg');
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.bottom{
+    height: 4rem;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#progressbar{
+    width: 80vw;
+    margin-bottom: 10px;
+}
+.gif1{
+    height: 20px;
+    width: 60px;
+}
+.gif{
+    position:absolute;
+    left: 8rem;
+    bottom: 10px;
+}
+.fa-solid{
+    margin: 0 7px;
+}
+.songlist{
+    color: white;
+    margin-left: 20px;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.songitem{
+    height: 2rem;
+    width: 35%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+.coverimage{
+    height: 2rem;
+    width: 2rem;
+    margin:  10px;
+}
+.songlistplay{
+    margin: 20px;
+}
+.gif{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
